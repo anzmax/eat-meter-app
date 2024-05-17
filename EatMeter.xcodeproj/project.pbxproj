@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44CCC102BF76E960048554C /* EatMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CCC0F2BF76E960048554C /* EatMeterApp.swift */; };
+		F44CCC122BF76E960048554C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CCC112BF76E960048554C /* ContentView.swift */; };
+		F44CCC142BF76E980048554C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC132BF76E980048554C /* Assets.xcassets */; };
+		F44CCC172BF76E980048554C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC162BF76E980048554C /* Preview Assets.xcassets */; };
+		F44CCC282BF798F90048554C /* MPLUSRounded1c-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC212BF798F90048554C /* MPLUSRounded1c-Light.ttf */; };
+		F44CCC292BF798F90048554C /* MPLUSRounded1c-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC222BF798F90048554C /* MPLUSRounded1c-Regular.ttf */; };
+		F44CCC2A2BF798F90048554C /* MPLUSRounded1c-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC232BF798F90048554C /* MPLUSRounded1c-Bold.ttf */; };
+		F44CCC2B2BF798F90048554C /* MPLUSRounded1c-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC242BF798F90048554C /* MPLUSRounded1c-Black.ttf */; };
+		F44CCC2C2BF798F90048554C /* MPLUSRounded1c-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC252BF798F90048554C /* MPLUSRounded1c-ExtraBold.ttf */; };
+		F44CCC2D2BF798F90048554C /* MPLUSRounded1c-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC262BF798F90048554C /* MPLUSRounded1c-Medium.ttf */; };
+		F44CCC2E2BF798F90048554C /* MPLUSRounded1c-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC272BF798F90048554C /* MPLUSRounded1c-Thin.ttf */; };
+		F44CCC3C2BF799170048554C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC302BF799150048554C /* Roboto-ThinItalic.ttf */; };
+		F44CCC3D2BF799170048554C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC312BF799150048554C /* Roboto-Italic.ttf */; };
+		F44CCC3E2BF799170048554C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC322BF799150048554C /* Roboto-Medium.ttf */; };
+		F44CCC3F2BF799170048554C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC332BF799150048554C /* Roboto-Bold.ttf */; };
+		F44CCC402BF799170048554C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC342BF799160048554C /* Roboto-Thin.ttf */; };
+		F44CCC412BF799170048554C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC352BF799160048554C /* Roboto-Black.ttf */; };
+		F44CCC422BF799170048554C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC362BF799160048554C /* Roboto-Light.ttf */; };
+		F44CCC432BF799170048554C /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC372BF799160048554C /* Roboto-LightItalic.ttf */; };
+		F44CCC442BF799170048554C /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC382BF799160048554C /* Roboto-BlackItalic.ttf */; };
+		F44CCC452BF799170048554C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC392BF799160048554C /* Roboto-BoldItalic.ttf */; };
+		F44CCC462BF799170048554C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC3A2BF799170048554C /* Roboto-Regular.ttf */; };
+		F44CCC472BF799170048554C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC3B2BF799170048554C /* Roboto-MediumItalic.ttf */; };
+		F44CCC4D2BF7992E0048554C /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC492BF7992D0048554C /* Ubuntu-Italic.ttf */; };
+		F44CCC4E2BF7992E0048554C /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC4A2BF7992E0048554C /* Ubuntu-Regular.ttf */; };
+		F44CCC4F2BF7992E0048554C /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC4B2BF7992E0048554C /* Ubuntu-BoldItalic.ttf */; };
+		F44CCC502BF7992E0048554C /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC4C2BF7992E0048554C /* Ubuntu-Bold.ttf */; };
+		F44CCC542BF79B970048554C /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CCC532BF79B970048554C /* CustomFonts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F44CCC0C2BF76E960048554C /* EatMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44CCC0F2BF76E960048554C /* EatMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatMeterApp.swift; sourceTree = "<group>"; };
+		F44CCC112BF76E960048554C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F44CCC132BF76E980048554C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44CCC162BF76E980048554C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F44CCC212BF798F90048554C /* MPLUSRounded1c-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Light.ttf"; sourceTree = "<group>"; };
+		F44CCC222BF798F90048554C /* MPLUSRounded1c-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Regular.ttf"; sourceTree = "<group>"; };
+		F44CCC232BF798F90048554C /* MPLUSRounded1c-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Bold.ttf"; sourceTree = "<group>"; };
+		F44CCC242BF798F90048554C /* MPLUSRounded1c-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Black.ttf"; sourceTree = "<group>"; };
+		F44CCC252BF798F90048554C /* MPLUSRounded1c-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F44CCC262BF798F90048554C /* MPLUSRounded1c-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Medium.ttf"; sourceTree = "<group>"; };
+		F44CCC272BF798F90048554C /* MPLUSRounded1c-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Thin.ttf"; sourceTree = "<group>"; };
+		F44CCC302BF799150048554C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		F44CCC312BF799150048554C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		F44CCC322BF799150048554C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		F44CCC332BF799150048554C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		F44CCC342BF799160048554C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		F44CCC352BF799160048554C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		F44CCC362BF799160048554C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		F44CCC372BF799160048554C /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		F44CCC382BF799160048554C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F44CCC392BF799160048554C /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F44CCC3A2BF799170048554C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		F44CCC3B2BF799170048554C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F44CCC492BF7992D0048554C /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		F44CCC4A2BF7992E0048554C /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		F44CCC4B2BF7992E0048554C /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F44CCC4C2BF7992E0048554C /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		F44CCC512BF7995A0048554C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44CCC532BF79B970048554C /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44CCC092BF76E960048554C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44CCC032BF76E960048554C = {
+			isa = PBXGroup;
+			children = (
+				F44CCC0E2BF76E960048554C /* EatMeter */,
+				F44CCC0D2BF76E960048554C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44CCC0D2BF76E960048554C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC0C2BF76E960048554C /* EatMeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44CCC0E2BF76E960048554C /* EatMeter */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC1E2BF798BD0048554C /* App */,
+				F44CCC522BF79B5D0048554C /* Configuration */,
+				F44CCC1D2BF798870048554C /* Resources */,
+				F44CCC152BF76E980048554C /* Preview Content */,
+			);
+			path = EatMeter;
+			sourceTree = "<group>";
+		};
+		F44CCC152BF76E980048554C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC162BF76E980048554C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F44CCC1D2BF798870048554C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC1F2BF798C80048554C /* Fonts */,
+				F44CCC132BF76E980048554C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F44CCC1E2BF798BD0048554C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC0F2BF76E960048554C /* EatMeterApp.swift */,
+				F44CCC112BF76E960048554C /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F44CCC1F2BF798C80048554C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC532BF79B970048554C /* CustomFonts.swift */,
+				F44CCC482BF7991D0048554C /* Ubuntu */,
+				F44CCC2F2BF799000048554C /* Roboto */,
+				F44CCC202BF798E40048554C /* MPLUSRounded1c */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F44CCC202BF798E40048554C /* MPLUSRounded1c */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC242BF798F90048554C /* MPLUSRounded1c-Black.ttf */,
+				F44CCC232BF798F90048554C /* MPLUSRounded1c-Bold.ttf */,
+				F44CCC252BF798F90048554C /* MPLUSRounded1c-ExtraBold.ttf */,
+				F44CCC212BF798F90048554C /* MPLUSRounded1c-Light.ttf */,
+				F44CCC262BF798F90048554C /* MPLUSRounded1c-Medium.ttf */,
+				F44CCC222BF798F90048554C /* MPLUSRounded1c-Regular.ttf */,
+				F44CCC272BF798F90048554C /* MPLUSRounded1c-Thin.ttf */,
+			);
+			path = MPLUSRounded1c;
+			sourceTree = "<group>";
+		};
+		F44CCC2F2BF799000048554C /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC352BF799160048554C /* Roboto-Black.ttf */,
+				F44CCC382BF799160048554C /* Roboto-BlackItalic.ttf */,
+				F44CCC332BF799150048554C /* Roboto-Bold.ttf */,
+				F44CCC392BF799160048554C /* Roboto-BoldItalic.ttf */,
+				F44CCC312BF799150048554C /* Roboto-Italic.ttf */,
+				F44CCC362BF799160048554C /* Roboto-Light.ttf */,
+				F44CCC372BF799160048554C /* Roboto-LightItalic.ttf */,
+				F44CCC322BF799150048554C /* Roboto-Medium.ttf */,
+				F44CCC3B2BF799170048554C /* Roboto-MediumItalic.ttf */,
+				F44CCC3A2BF799170048554C /* Roboto-Regular.ttf */,
+				F44CCC342BF799160048554C /* Roboto-Thin.ttf */,
+				F44CCC302BF799150048554C /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		F44CCC482BF7991D0048554C /* Ubuntu */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC4C2BF7992E0048554C /* Ubuntu-Bold.ttf */,
+				F44CCC4B2BF7992E0048554C /* Ubuntu-BoldItalic.ttf */,
+				F44CCC492BF7992D0048554C /* Ubuntu-Italic.ttf */,
+				F44CCC4A2BF7992E0048554C /* Ubuntu-Regular.ttf */,
+			);
+			path = Ubuntu;
+			sourceTree = "<group>";
+		};
+		F44CCC522BF79B5D0048554C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC512BF7995A0048554C /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44CCC0B2BF76E960048554C /* EatMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44CCC1A2BF76E980048554C /* Build configuration list for PBXNativeTarget "EatMeter" */;
+			buildPhases = (
+				F44CCC082BF76E960048554C /* Sources */,
+				F44CCC092BF76E960048554C /* Frameworks */,
+				F44CCC0A2BF76E960048554C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EatMeter;
+			productName = EatMeter;
+			productReference = F44CCC0C2BF76E960048554C /* EatMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44CCC042BF76E960048554C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F44CCC0B2BF76E960048554C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F44CCC072BF76E960048554C /* Build configuration list for PBXProject "EatMeter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44CCC032BF76E960048554C;
+			productRefGroup = F44CCC0D2BF76E960048554C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44CCC0B2BF76E960048554C /* EatMeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44CCC0A2BF76E960048554C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CCC402BF799170048554C /* Roboto-Thin.ttf in Resources */,
+				F44CCC3C2BF799170048554C /* Roboto-ThinItalic.ttf in Resources */,
+				F44CCC462BF799170048554C /* Roboto-Regular.ttf in Resources */,
+				F44CCC412BF799170048554C /* Roboto-Black.ttf in Resources */,
+				F44CCC472BF799170048554C /* Roboto-MediumItalic.ttf in Resources */,
+				F44CCC3F2BF799170048554C /* Roboto-Bold.ttf in Resources */,
+				F44CCC2B2BF798F90048554C /* MPLUSRounded1c-Black.ttf in Resources */,
+				F44CCC2D2BF798F90048554C /* MPLUSRounded1c-Medium.ttf in Resources */,
+				F44CCC4F2BF7992E0048554C /* Ubuntu-BoldItalic.ttf in Resources */,
+				F44CCC422BF799170048554C /* Roboto-Light.ttf in Resources */,
+				F44CCC502BF7992E0048554C /* Ubuntu-Bold.ttf in Resources */,
+				F44CCC172BF76E980048554C /* Preview Assets.xcassets in Resources */,
+				F44CCC2A2BF798F90048554C /* MPLUSRounded1c-Bold.ttf in Resources */,
+				F44CCC4D2BF7992E0048554C /* Ubuntu-Italic.ttf in Resources */,
+				F44CCC142BF76E980048554C /* Assets.xcassets in Resources */,
+				F44CCC282BF798F90048554C /* MPLUSRounded1c-Light.ttf in Resources */,
+				F44CCC432BF799170048554C /* Roboto-LightItalic.ttf in Resources */,
+				F44CCC452BF799170048554C /* Roboto-BoldItalic.ttf in Resources */,
+				F44CCC292BF798F90048554C /* MPLUSRounded1c-Regular.ttf in Resources */,
+				F44CCC442BF799170048554C /* Roboto-BlackItalic.ttf in Resources */,
+				F44CCC3E2BF799170048554C /* Roboto-Medium.ttf in Resources */,
+				F44CCC2C2BF798F90048554C /* MPLUSRounded1c-ExtraBold.ttf in Resources */,
+				F44CCC4E2BF7992E0048554C /* Ubuntu-Regular.ttf in Resources */,
+				F44CCC3D2BF799170048554C /* Roboto-Italic.ttf in Resources */,
+				F44CCC2E2BF798F90048554C /* MPLUSRounded1c-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44CCC082BF76E960048554C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44CCC542BF79B970048554C /* CustomFonts.swift in Sources */,
+				F44CCC122BF76E960048554C /* ContentView.swift in Sources */,
+				F44CCC102BF76E960048554C /* EatMeterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F44CCC182BF76E980048554C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44CCC192BF76E980048554C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44CCC1B2BF76E980048554C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EatMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = LS5WY3DH94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EatMeter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anzmax.EatMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44CCC1C2BF76E980048554C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EatMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = LS5WY3DH94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EatMeter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anzmax.EatMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44CCC072BF76E960048554C /* Build configuration list for PBXProject "EatMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44CCC182BF76E980048554C /* Debug */,
+				F44CCC192BF76E980048554C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44CCC1A2BF76E980048554C /* Build configuration list for PBXNativeTarget "EatMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44CCC1B2BF76E980048554C /* Debug */,
+				F44CCC1C2BF76E980048554C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44CCC042BF76E960048554C /* Project object */;
+}
