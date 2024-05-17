@@ -35,6 +35,7 @@
 		F44CCC4F2BF7992E0048554C /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC4B2BF7992E0048554C /* Ubuntu-BoldItalic.ttf */; };
 		F44CCC502BF7992E0048554C /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F44CCC4C2BF7992E0048554C /* Ubuntu-Bold.ttf */; };
 		F44CCC542BF79B970048554C /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CCC532BF79B970048554C /* CustomFonts.swift */; };
+		F44CCC582BF7A18D0048554C /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CCC572BF7A18D0048554C /* RoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		F44CCC4C2BF7992E0048554C /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 		F44CCC512BF7995A0048554C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44CCC532BF79B970048554C /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		F44CCC572BF7A18D0048554C /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		F44CCC1E2BF798BD0048554C /* App */ = {
 			isa = PBXGroup;
 			children = (
+				F44CCC552BF79FAB0048554C /* UI */,
 				F44CCC0F2BF76E960048554C /* EatMeterApp.swift */,
 				F44CCC112BF76E960048554C /* ContentView.swift */,
 			);
@@ -195,6 +198,22 @@
 				F44CCC512BF7995A0048554C /* Info.plist */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F44CCC552BF79FAB0048554C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC562BF79FBC0048554C /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F44CCC562BF79FBC0048554C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F44CCC572BF7A18D0048554C /* RoundedCorner.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44CCC582BF7A18D0048554C /* RoundedCorner.swift in Sources */,
 				F44CCC542BF79B970048554C /* CustomFonts.swift in Sources */,
 				F44CCC122BF76E960048554C /* ContentView.swift in Sources */,
 				F44CCC102BF76E960048554C /* EatMeterApp.swift in Sources */,
